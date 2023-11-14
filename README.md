@@ -48,6 +48,6 @@ TEST: 테스트 코드 추가 및 수정
 <br>
 
 ## 🍀 Members
-| [![텍스트](https://avatars.githubusercontent.com/u/67510260?v=4)](https://github.com/LEEJaeHyeok97) | [![텍스트]([https://avatars.githubusercontent.com/u/71399374?v=4](https://avatars.githubusercontent.com/u/96376539?v=4))](https://github.com/DryRains) | [![텍스트]([https://avatars.githubusercontent.com/u/82086303?v=4](https://avatars.githubusercontent.com/u/88930580?v=4))](https://github.com/YuJin-hope) |
+| [![텍스트](https://avatars.githubusercontent.com/u/67510260?v=4)](https://github.com/LEEJaeHyeok97) | [![텍스트](https://avatars.githubusercontent.com/u/96376539?v=4)](https://github.com/DryRains) | [![텍스트](https://avatars.githubusercontent.com/u/88930580?v=4)](https://github.com/YuJin-hope) |
 |:---:|:---:|:---:|
 | 루키/이재혁 | 켄/김건우 | 코코/성유진 |
