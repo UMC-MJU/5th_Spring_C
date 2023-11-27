@@ -15,7 +15,9 @@ import umc.spring.apiPayload.ApiResponse;
 import umc.spring.apiPayload.code.ErrorReasonDTO;
 import umc.spring.apiPayload.code.status.ErrorStatus;
 
+
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.ConstraintViolationException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Optional;
@@ -24,7 +26,7 @@ import java.util.Optional;
 @RestControllerAdvice(annotations = {RestController.class})
 public class ExceptionAdvice extends ResponseEntityExceptionHandler {
     @org.springframework.web.bind.annotation.ExceptionHandler
-    public ResponseEntity<Object> validation(ConstraintViolationExcept e, WebRequest request) {
+    public ResponseEntity<Object> validation(ConstraintViolationException e, WebRequest request) {
         String errorMessage = e.getConstraintViolations().stream()
                 .map(constraintViolation -> constraintViolation.getMessage())
                 .findFirst()
